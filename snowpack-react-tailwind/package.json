@@ -15,7 +15,7 @@
   ],
   "author": "Mark Ladyshau <markladyshev@gmail.com>",
   "scripts": {
-    "prepare": "snowpack",
+    "prepare-bak": "snowpack",
     "start": "snowpack dev",
     "build": "snowpack build",
     "test": "jest"
