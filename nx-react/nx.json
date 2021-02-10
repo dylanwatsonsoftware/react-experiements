@@ -18,7 +18,7 @@
     "default": {
       "runner": "@nrwl/nx-cloud",
       "options": {
-        "accessToken": "NzBhODg4YmQtMGVhZi00MjdmLWJlMTItNmM5YWY1N2I1OTRlfHJlYWQtd3JpdGU=",
+        "accessToken": "MzJmODdmMTUtZGFkYy00ODQyLWFkMzYtNDlmMDJkN2QxMjY2fHJlYWQtd3JpdGU=",
         "cacheableOperations": [
           "build",
           "test",
@@ -31,13 +31,13 @@
     }
   },
   "projects": {
-    "react-app": {
+    "nx-react": {
       "tags": []
     },
-    "react-app-e2e": {
+    "nx-react-e2e": {
       "tags": [],
       "implicitDependencies": [
-        "react-app"
+        "nx-react"
       ]
     }
   }
